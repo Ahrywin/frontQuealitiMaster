@@ -15,6 +15,9 @@ const routes: Routes = [
   path: 'tasks',
   loadChildren: () => import ('./views/home/home.module').then (m=> m.HomeModule)
 }
+
+
+// Otras rutas si las tienes
 ];
 
 @NgModule({

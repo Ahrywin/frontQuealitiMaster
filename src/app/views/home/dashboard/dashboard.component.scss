@@ -1,0 +1,50 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background: #f0f0f0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .vertical-sections {
+    display: flex;
+  }
+  
+  .vertical-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .reserva {
+    background: #ffe6e6;
+  }
+  
+  .realizando {
+    background: #ffffe6;
+  }
+  
+  .en-progreso {
+    background: #e6ffe6;
+  }
+  
+  .finalizado {
+    background: #e6e6ff;
+  }
+  

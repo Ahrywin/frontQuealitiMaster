@@ -14,7 +14,8 @@ import { NavbarComponent } from './layout/nav-var/navbar/navbar.component';
     MyTaskComponent,
     ListasComponent,
     DashboardsComponent,
-    LayoutComponent
+    LayoutComponent,NavbarComponent
+    
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,18 @@
+.dotted-line {
+    border-right: 1px dotted black; /* Cambia "black" al color que desees */
+    height: 40rem;
+}
+.plus-button {
+    background-color: #3498db; /* Color de fondo del botón */
+    border: none;
+    color: white; /* Color del texto */
+    padding: 8px 120px;
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer;
+}
+
+.plus-sign {
+    font-size: 20px; /* Tamaño del signo más */
+    vertical-align: middle; /* Alineación vertical en medio */
+    margin-right: 5px; /* Margen derecho para separar el signo del texto */
+}

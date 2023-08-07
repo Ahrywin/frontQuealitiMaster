@@ -15,6 +15,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDialogModule} from '@angular/material/dialog';
 import { UserSettingsComponent } from './dashboard/user-settings/user-settings.component';
 import { GeneralSettingsComponent } from './dashboard/general-settings/general-settings.component';
+import { NewUserComponent } from './dashboard/new-user/new-user.component';
 @NgModule({
   declarations: [
     MyTaskComponent,
@@ -23,7 +24,8 @@ import { GeneralSettingsComponent } from './dashboard/general-settings/general-s
     LayoutComponent,
     NavbarComponent,
     UserSettingsComponent,
-    GeneralSettingsComponent
+    GeneralSettingsComponent,
+    NewUserComponent
     
   ],
   imports: [

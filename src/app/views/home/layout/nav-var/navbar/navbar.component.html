@@ -44,4 +44,5 @@
 <app-listas *ngIf="tabIndex === 2"></app-listas>
 
 <app-user-settings  *ngIf="tabIndex === 3"></app-user-settings>
-<app-general-settings *ngIf="tabIndex === 4" ></app-general-settings>
+<app-general-settings *ngIf="tabIndex === 4" (tabIndex)="tabIndex = $event" ></app-general-settings>
+<app-new-user *ngIf="tabIndex === 5"   ></app-new-user>
